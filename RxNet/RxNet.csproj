@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <Version>2.3.0</Version>
+    <AssemblyVersion>2.3.0.0</AssemblyVersion>
+    <FileVersion>2.3.0.0</FileVersion>
+    <Authors>Matias Sala</Authors>
+    <Company>SistemasMCh</Company>
+    <Description>Redux para aplicaciones .Net</Description>
+    <Copyright>Copyright 2019</Copyright>
+    <PackageIconUrl>https://cdn-images-1.medium.com/max/1600/1*dlapmYAhWBkrFuHm020qlg.png</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reactive" Version="4.1.2" />
+  </ItemGroup>
+
+</Project>
